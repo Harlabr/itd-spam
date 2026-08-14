@@ -22,7 +22,7 @@
     }
 
     async function fire(token) {
-        const text = "ИЗМЕНИ ЭТО REPO GITHUB github.com/Harlabr/itd-spam"; 
+        const text = "GITHUB github.com/Harlabr/itd-spam"; 
         try {
             const res = await fetch('/api/posts', {
                 method: 'POST',
