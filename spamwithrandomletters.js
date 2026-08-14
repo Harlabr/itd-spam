@@ -31,7 +31,7 @@
     }
 
     async function fire(token) {
-        const text = generateId() + "пятка.#пятка. " + generateId(); 
+        const text = generateId() + "Github github.com/Harlabr/itd-spam" + generateId(); 
         try {
             const res = await fetch('/api/posts', {
                 method: 'POST',
